@@ -1,0 +1,13 @@
+<script type="module">
+    function onClick(){
+        console.log('>onClick');
+    }
+    btn.addEventListener('click',onClick);
+    btn.addEventListener('click',onClick);
+    btn.addEventListener('click',onClick);
+    
+    btn.addEventListener('click',e=>console.log('>onClick2'));
+    btn.addEventListener('click',e=>console.log('>onClick2'));
+</script>
+
+<button id="btn">Click me</button>

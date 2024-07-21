@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Events 2",
+  "description": "Test events 2",
+  "version": "0.0.1",
+  "icons": {
+    "128": "images/off.png"
+  },
+  "background": {
+    "service_worker": "sw/sw4.js",
+    "type": "module"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ] 
+}
