@@ -1,4 +1,4 @@
-# Modern color scales without any libraries or custom algorithms
-Color numbers or words according to a linear gradient between two colors
+# Why event listeners in extensions stop working or work occasionally
+Unpredictable execution of event listeners after service worker restarts
 
-Sample code for my post https://marian-caikovski.medium.com/modern-color-scales-without-any-libraries-or-custom-algorithms-12e2267c7068
+Sample code for post https://marian-caikovski.medium.com/why-event-listeners-in-extensions-stop-working-or-work-occasionally-47d82cc8ee06 about odd mechanics of events in browser extensions with manifest 3
